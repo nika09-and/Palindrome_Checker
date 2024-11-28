@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,         initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main>
+      <div id = "rules">
+        <h1>Palindrome Checker</h1>
+        <p id="rulesTXT">
+          A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing(Hit okay to start).
+        </p>
+        <button id = "rulesButton">Okay</button>
+      </div>
+
+      <div id="mainBoard">
+          <h2 id="inputHeader">Word:</h2>
+        <input id="text-input">
+        </input>
+        <h2 id="resultHeader">reult: it is polimeric</h2>
+        <p id="result"></p>
+        <div id="indicator">
+          <p id= "no">X</p>
+          <i class="fas fa-check fa-2x check-icon" id= "icon"></i>
+          
+        </div>
+      </div>
+      <div id="buttons">
+        <button id="check-btn">Check</button>
+        <button id="clear">Clear</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
